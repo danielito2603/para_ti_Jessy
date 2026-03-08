@@ -41,11 +41,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 3. Floating Particles Generator (Hearts/Stars)
+    // 3. Floating Particles Generator (Flowers/Sparkles)
     function createParticles() {
         const particlesContainer = document.getElementById('particles');
-        const particleIcons = ['🤍', '✨', '⭐', '🥰'];
-        const numParticles = 30;
+        const particleIcons = ['🌷', '🌸', '✨', '💜', '💖', '🌻', '🌹'];
+        const numParticles = 40;
 
         for (let i = 0; i < numParticles; i++) {
             setTimeout(() => {
